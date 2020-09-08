@@ -1,0 +1,84 @@
+/*Used the background property for my header, main and footer containers*/
+header {
+  background: #264653;
+}
+
+body {
+  margin: 0px;
+  color:#264653;
+}
+
+main {
+  background: #edf6f9;
+}
+
+img { 
+  border-radius: 10px;
+}
+
+h1 {
+  padding: 0;
+  margin: 0px;
+  font-family: arial;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+}
+
+h2 {
+  font-family: arial;
+  text-align: center;
+  padding-bottom: 10px;
+}
+/*Combined these elements because they all use the same font and color*/
+h3, p, li, ol, ul {
+  font-family: arial;
+  color: #264653;
+}
+/*Used the height property here to stylize my horizontal rulers*/
+hr {
+  border: 5px solid #264653;
+  height: 8px;
+  border-radius: 12px;
+}
+
+/*Used the article container to align contents properly*/
+article {
+  margin: auto;
+  width: 500px;
+  padding: 0;
+}
+
+
+/*Used the text-align and padding properties in my footer*/
+footer {
+  background: #264653;
+  text-align: center;
+  padding: 10px;
+}
+
+/*I used some classes and applied them in my html file where needed*/
+
+.center-text {
+  text-align: center;
+}
+
+.white {
+  color: white;
+}
+/*Styled my links using pseudoclasses*/
+a:link {
+  color: #264653;
+}
+
+a:visited {
+  color: blue;
+}
+
+a:hover {
+  color: cadetblue;
+}
+
+a:active {
+  color: darkmagenta;
+}
